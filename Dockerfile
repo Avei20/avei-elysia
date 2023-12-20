@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package.json . 
 COPY bun.lockb . 
 
-RUN bun insntall --production 
+RUN bun install --production 
 
 EXPOSE 8080
 
